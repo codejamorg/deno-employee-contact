@@ -1,6 +1,6 @@
 // app.ts
-import express, { Request, Response, NextFunction } from 'npm:express@4.18.2';
-import { load } from 'https://deno.land/std@0.220.0/dotenv/mod.ts';
+import express, { Request, Response, NextFunction } from 'express';
+import { load } from 'dotenv';
 import routes from './routes.ts';
 
 const env = await load();

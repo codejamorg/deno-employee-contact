@@ -1,5 +1,5 @@
 // routes.ts
-import express, { Request, Response } from 'npm:express@4.18.2';
+import express, { Request, Response } from 'express';
 import services from './services.ts';
 import middleware from './middleware.ts';
 

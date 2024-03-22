@@ -14,13 +14,14 @@ async function getAll() {
   return employees;
 }
 
-async function getManyById(ids: string[]) {
+async function getManyById(ids: string[][]) {
   return await kv.getMany(ids);
 }
 
 async function removeById(id: string) {
   const key = ['employees', id];
-  const res = await kv.delete(key);
+  await kv.delete(key);
+
   return 'Employee removed';
 }
 

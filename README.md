@@ -15,7 +15,7 @@ This is an deno app that uses the Deno KV as keystore
 2. Clone this repository: `git clone https://github.com/codejamorg/deno-employee-contact.git`
 3. Navigate to the project directory: `cd deno-employee-contact`
 4. Create a .env file and paste content of .env.example into .env file
-5. Start the app: `deno run --unstable-kv --allow-net main.ts`
+5. Start the app: `deno task start`
 
 ## Contributing
 

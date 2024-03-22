@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'npm:express@4.18.2';
+import { Request, Response, NextFunction } from 'express';
 import { IEmployee } from './types.ts';
 
 // Middleware to validate employee object

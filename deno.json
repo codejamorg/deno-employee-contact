@@ -1,0 +1,16 @@
+{
+    "lock": false,
+    "tasks": {
+      "check": "deno fmt --check && deno lint && deno check **/*.ts && deno check **/*.tsx",
+      "manifest": "deno task cli manifest $(pwd)",
+      "start": "deno run -A --unstable-kv --watch=/src src/main.ts",
+      "preview": "deno run -A main.ts"
+    },
+    "imports": {
+      "express": "npm:express@4.18.2",
+      "uuid": "https://deno.land/std@0.62.0/uuid/v4.ts",
+      "dotenv": "https://deno.land/std@0.220.0/dotenv/mod.ts"
+    },
+    "nodeModulesDir": false
+  }
+  

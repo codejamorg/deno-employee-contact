@@ -1,7 +1,7 @@
 // services.ts
 import { IEmployee } from './types.ts';
 import repository from './repository.ts';
-import { generate } from 'https://deno.land/std@0.62.0/uuid/v4.ts';
+import { generate } from 'uuid';
 
 const addEmployee = (employee: IEmployee) => {
   const employeeId = generate();
