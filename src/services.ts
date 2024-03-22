@@ -1,24 +1,13 @@
 // services.ts
 import { IEmployee } from './types.ts';
-import repository from './repository.ts';
-import { generate } from 'uuid';
 
-const addEmployee = (employee: IEmployee) => {
-  const employeeId = generate();
-  return repository.save(employeeId, employee);
-};
+const addEmployee = (employee: IEmployee) => {};
 
-const getEmployeeById = (id: string) => {
-  return repository.getById(id);
-};
+const getEmployeeById = (id: string) => {};
 
-const getAllEmployees = () => {
-  return repository.getAll();
-};
+const getAllEmployees = () => {};
 
-const removeEmployee = (id: string) => {
-  return repository.removeById(id);
-};
+const removeEmployee = (id: string) => {};
 
 export default {
   addEmployee,
