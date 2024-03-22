@@ -5,9 +5,7 @@ This is an deno app that uses the Deno KV as keystore
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
